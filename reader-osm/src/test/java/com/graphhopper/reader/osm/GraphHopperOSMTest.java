@@ -195,7 +195,7 @@ public class GraphHopperOSMTest {
             }
         });
 
-        assertEquals(47, indexNodeList.size());
+        assertEquals(57, indexNodeList.size());
         for (int nodeId : indexNodeList) {
             if (!bbox.contains(na.getLatitude(nodeId), na.getLongitude(nodeId)))
                 fail("bbox " + bbox + " should contain " + nodeId);
@@ -859,7 +859,7 @@ public class GraphHopperOSMTest {
 
     @Test
     public void testGetPathsDirectionEnforcement6() {
-        // Test if query results at tower nodes are ignored
+        // Test if snaps at tower nodes are ignored
         instance = createSquareGraphInstance();
 
         // QueryPoints directly on TowerNodes 
