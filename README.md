@@ -149,7 +149,7 @@ Embed GraphHopper with OpenStreetMap support into your Java application via the 
 
 ```xml
 <dependency>
-    <groupId>com.graphhopper</groupId>
+    <groupId>eu.singletrail-map</groupId>
     <artifactId>graphhopper-reader-osm</artifactId>
     <version>[LATEST-VERSION]</version>
 </dependency>
@@ -159,7 +159,7 @@ If you want to write your own import procedure, then use:
 
 ```xml
 <dependency>
-    <groupId>com.graphhopper</groupId>
+    <groupId>eu.singletrail-map</groupId>
     <artifactId>graphhopper-core</artifactId>
     <version>[LATEST-VERSION]</version>
 </dependency>

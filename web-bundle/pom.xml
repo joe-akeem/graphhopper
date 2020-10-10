@@ -10,30 +10,30 @@
     <description>Use the GraphHopper routing engine as a web-service</description>
 
     <parent>
-        <groupId>com.graphhopper</groupId>
+        <groupId>eu.singletrail-map</groupId>
         <artifactId>graphhopper-parent</artifactId>
         <version>3.0-SNAPSHOT</version>
     </parent>
 
     <dependencies>
         <dependency>
-            <groupId>com.graphhopper</groupId>
+            <groupId>eu.singletrail-map</groupId>
             <artifactId>graphhopper-web-api</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.graphhopper</groupId>
+            <groupId>eu.singletrail-map</groupId>
             <artifactId>graphhopper-reader-osm</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.graphhopper</groupId>
+            <groupId>eu.singletrail-map</groupId>
             <artifactId>graphhopper-reader-gtfs</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>com.graphhopper</groupId>
+            <groupId>eu.singletrail-map</groupId>
             <artifactId>graphhopper-isochrone</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
@@ -65,7 +65,7 @@
 
         <!-- for integration tests of service -->
         <dependency>
-            <groupId>com.graphhopper</groupId>
+            <groupId>eu.singletrail-map</groupId>
             <artifactId>directions-api-client-hc</artifactId>
             <version>${project.parent.version}</version>
             <scope>test</scope>

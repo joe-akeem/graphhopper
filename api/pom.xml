@@ -10,7 +10,7 @@
     <description>Use the GraphHopper routing engine as a web-service</description>
 
     <parent>
-        <groupId>com.graphhopper</groupId>
+        <groupId>eu.singletrail-map</groupId>
         <artifactId>graphhopper-parent</artifactId>
         <version>3.0-SNAPSHOT</version>
     </parent>

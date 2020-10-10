@@ -10,19 +10,19 @@
     <name>GraphHopper Navigation</name>
 
     <parent>
-        <groupId>com.graphhopper</groupId>
+        <groupId>eu.singletrail-map</groupId>
         <artifactId>graphhopper-parent</artifactId>
         <version>3.0-SNAPSHOT</version>
     </parent>  
 
     <dependencies>
         <dependency>
-            <groupId>com.graphhopper</groupId>
+            <groupId>eu.singletrail-map</groupId>
             <artifactId>graphhopper-web-api</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.graphhopper</groupId>
+            <groupId>eu.singletrail-map</groupId>
             <artifactId>graphhopper-reader-osm</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
